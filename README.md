@@ -1,6 +1,6 @@
 # ColorPallete-Boxanimation
-Click on start box animation starts.
-Click on stop box animation stops.
+Click on start, box animation starts.<br>
+Click on stop, box animation stops.
 
 Author: Pranav
 Created on : 29 August 2021
