@@ -1,0 +1,100 @@
+.buttons
+{
+    padding-top:9px;
+}
+.container
+{
+    padding: 8px;
+}
+.outer-box
+{
+    padding-left:19%;
+    padding-top:5%;
+}
+.color-pallete-box
+{
+    background-color: rgb(5,22,49);
+    /*height: 14em;
+    width: 30em;
+    */
+
+    height: 12em;
+    width: 43em;
+    border:solid 5px rgb(5,22,49);
+    /*margin: solid 3px  rgb(5,22,49);*/
+    display: flex;
+}
+.inner-box
+{
+    border-top-width: 2em;
+    height: 12em ;
+    width:30%;
+    background-color: rgb(122, 20, 20);
+    padding-top:3px;
+    transition: all .7s ease-in-out;
+    
+}
+
+.box1{
+ 
+    height: 11.8em;
+    background-color: #7A5BBD;
+    align-self: flex-end;
+}
+.box2{
+    height: 11.8em;
+    background-color: rgb(210,91,169);
+    align-self: flex-end;
+}
+.box3{
+    height: 11.8em;
+    background-color: rgb(249,99,133);
+    align-self: flex-end;
+}
+.box4{
+    height: 11.8em;
+    background-color: rgb(252,137,102);
+    align-self: flex-end;
+}
+.box5{
+    height: 11.8em;
+    background-color: rgb(255,190,86);
+    align-self: flex-end;
+}
+.a-button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+  } 
+
+.start-button
+{
+    position: absolute;
+    top: 3em;
+    left: 11em;
+    background: rgb(45,135,89);
+    color: white;
+    text-align: center;
+    border: transparent;
+    height: 3em;
+    width: 7em;
+}
+.stop-button
+{
+  position: absolute;
+  top: 3em;
+  left: 29em;
+  background: rgb(223,58,51);
+  color: white;
+  text-align: center;
+  border: transparent;
+  height: 3em;
+  width: 7em;
+   
+}
+
+/*Media queries*/
