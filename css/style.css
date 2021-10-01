@@ -2,6 +2,10 @@
 Author: Pranav
 Created on : 29 August 2021
 */
+
+body {
+    background-image: url('../background.jpg');
+  }
 .buttons
 {
     padding-top:9px;
