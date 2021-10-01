@@ -19,7 +19,7 @@ function startAnimating()
         return;
     }
     //call the animate function every 250 milliseconds. This can be varied according to requirement
-   timeoutId=setInterval(animate,250);  
+   timeoutId=setInterval(animate,150);  
 }
 //function to stop animation on stop button click
 function stopAnimating()
@@ -42,6 +42,28 @@ function stopAnimating()
 //animates the color palletes
 function animate()
 {
+    //generate a random box id
+    var boxId='box'+(Math.floor( Math.random() * 5 ) );
+    //generate random height as per requirement
+    var height=(Math.floor( Math.random() * 11 ) + 1)+"em";
+    //set the height to the box
+    document.getElementById(boxId).style.height=height;
+    boxId='box'+(Math.floor( Math.random() * 5 ) );
+    //console.log(boxId);
+    height=(Math.floor( Math.random() * 11 ) + 1)+"em";
+    document.getElementById(boxId).style.height=height;
+    boxId='box'+(Math.floor( Math.random() * 5 ) );
+    //console.log(boxId);
+    height=(Math.floor( Math.random() * 11 ) + 1)+"em";
+    document.getElementById(boxId).style.height=height;
+    boxId='box'+(Math.floor( Math.random() * 5 ) );
+    //console.log(boxId);
+    height=(Math.floor( Math.random() * 11 ) + 1)+"em";
+    document.getElementById(boxId).style.height=height;
+    boxId='box'+(Math.floor( Math.random() * 5 ) );
+    //console.log(boxId);
+    height=(Math.floor( Math.random() * 11 ) + 1)+"em";
+    document.getElementById(boxId).style.height=height;
     //generate a random box id
     var boxId='box'+(Math.floor( Math.random() * 5 ) );
     //generate random height as per requirement
