@@ -105,6 +105,17 @@ body {
    
 }
 
+.start-button:hover {
+    background-color: rgb(223,58,51);; 
+    color: white;
+  }
+
+  .stop-button:hover {
+    background-color: rgb(45,135,89); 
+    color: white;
+  }
+
+
 /*Media queries*/
 
 @media (min-width: 1281px) {
